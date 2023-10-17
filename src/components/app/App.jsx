@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div>
+    <div style={{ width: "80%", margin: "auto" }}>
       <div>
         hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Consequatur voluptatibus a rem nihil at sapiente labore architecto in,
