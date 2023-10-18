@@ -1,6 +1,10 @@
+import { useStoreState } from "easy-peasy";
 import { Routes, Route } from "react-router-dom";
 
 const Home = () => {
+  const data = useStoreState((state) => state.playLists.data);
+  console.log("data", data);
+
   return (
     <div>
       <div>this is a home page </div>
