@@ -46,7 +46,7 @@ const App = () => {
   return (
     <div style={{ width: "80%", margin: "auto" }}>
       <Routes>
-        <Route path="/home" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
       </Routes>
     </div>
