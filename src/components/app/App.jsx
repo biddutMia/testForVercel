@@ -7,10 +7,11 @@ const Home = () => {
 
   const actions = useStoreActions((action) => action.playLists.getPlayListItem);
 
-  actions("PL_XxuZqN0xVD0op-QDEgyXFA4fRPChvkl");
-
   return (
     <div>
+      <button onClick={() => actions("PL_XxuZqN0xVD0op-QDEgyXFA4fRPChvkl")}>
+        add playlist
+      </button>
       <div>this is a home page </div>
       {Object.values(data).length > -1 &&
         Object.values(data).map((v, i) => {
